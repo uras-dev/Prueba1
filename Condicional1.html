@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="numero1" placeholder="Ingrese numero 1 ">
+    <input type="text" id="numero2" placeholder="Ingrese numero 2">
+    <button onclick="Calcular()">Calcular</button>
+
+    <script>
+
+ 
+
+
+        function Calcular() {
+            let num1 = parseInt(document.getElementById("numero1").value);
+            let num2 = parseInt(document.getElementById("numero2").value);
+
+            let resultado = num1 + num2;
+
+            if (resultado < 500) 
+                    alert("usted es idiondo de seco")
+
+
+            if (resultado > 500)
+                    alert("usted no es tan seco de seco")
+
+
+
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
